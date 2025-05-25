@@ -20,7 +20,7 @@ Każdy moduł jest opisany w osobnym katalogu z własnym `README.md`:
 
 ## ⚙️ Technologie
 
-- ESP32 (programowany w C++ z wykorzystaniem Arduino)
+- Mikrokontrolery ESP (programowany w C++ z wykorzystaniem Arduino)
 - MQTT (Mosquitto)
 - Node-RED (logika automatyzacji, reakcje na zdarzenia)
 - Kuma Uptime (monitoring dostępności modułów i usług)

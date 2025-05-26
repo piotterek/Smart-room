@@ -12,7 +12,7 @@ Każdy moduł jest opisany w osobnym katalogu z własnym `README.md`:
 
 | Moduł                          | Opis                                              |
 |--------------------------------|---------------------------------------------------|
-| [Desk setup](Desk setup)                 | Zarządzanie stanowiskiem komputerowym       |
+| [Desk setup](Desk_setup)                 | Zarządzanie stanowiskiem komputerowym       |
 
 ## ⚙️ Technologie
 

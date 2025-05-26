@@ -32,3 +32,13 @@ MIT – możesz używać, modyfikować i rozwijać dalej.
 ---
 
 🛠️ Szczegółowe instrukcje znajdziesz w katalogach poszczególnych modułów!
+
+---
+
+## 🛑 Uwaga prawna
+
+> ⚠️ **Niektóre funkcje mogą wymagać modyfikacji sprzętowej**, np. podłączenia się do przycisków zasilania, portów USB lub obwodów niskonapięciowych. Może to skutkować **utratą gwarancji** oraz – w przypadku błędów – **uszkodzeniem sprzętu**.  
+>  
+> Autor projektu **nie ponosi odpowiedzialności za ewentualne szkody**.  
+>  
+> Jeśli nie masz doświadczenia z elektroniką lub nie jesteś pewien, co robisz – **zastanów się dwa razy** lub poproś o pomoc osobę z odpowiednimi umiejętnościami.

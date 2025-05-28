@@ -7,28 +7,28 @@ Moduł **Desk Setup** odpowiada za automatyzację stanowiska komputerowego w ram
 - ✅ Włączanie PC i laptopa (zdalne sterowanie przyciskiem POWER)
 - ✅ Włączanie i wyłączanie monitorów (poprzez odcinanie zasilania gniazdek)
 - ✅ Automatyczne logowanie do komputerów (emulacja klawiatury przez ESP32)
-- ✅ Przełączanie wejść KVM (np. przez IR, przekaźnik lub HID)
+- ✅ Przełączanie wejść KVM (nie zadziała z każdą KVM)
 
 ## ⚙️ Zastosowane komponenty
 
 - **ESP32-S2** – sterownik modułu, obsługuje komunikację MQTT i HID przez USB
 - **Przekaźniki** – sterowanie zasilaniem monitorów i symulacją przycisków POWER
-- **Tranzystory NPN/P-MOSFET** – do sterowania obwodami niskoprądowymi
-- **Przyciski fizyczne** – lokalne sterowanie (np. ręczne przełączanie KVM)
-- **MQTT** – dwukierunkowa komunikacja z brokerem (np. Mosquitto)
+- **Tranzystory NPN** – do sterowania obwodami niskoprądowymi
+- **Przyciski fizyczne** – lokalne sterowanie
+- **MQTT** – dwukierunkowa komunikacja z brokerem
 
 ## 🧠 Automatyzacje
 
-- `scene/start_work`: uruchomienie PC i laptopa, włączenie monitorów
-- `scene/leave_desk`: wyłączenie monitorów, blokada sesji
-- `scene/switch_kvm`: przełączenie KVM na inne źródło
-- `scene/login_pc`: wpisanie loginu/hasła za pomocą HID
+- uruchomienie PC i laptopa, włączenie monitorów
+- wyłączenie monitorów, blokada sesji
+- przełączenie KVM na inne źródło
+- wpisanie loginu/hasła za pomocą HID
 
 ## 🛠️ Konfiguracja
 
-1. Wgraj firmware do ESP32-S2 (kod w `firmware/`)
-2. Skonfiguruj komunikację MQTT (tematy w `mqtt_topics.md`)
-3. Podłącz przekaźniki i tranzystory do sterowania urządzeniami
+1. Wgraj firmware do ESP32-S2
+2. Uruchom broker MQTT i skonfiguruj komunikację
+3. Podłącz moduły do MCU
 4. Skonfiguruj emulację HID na ESP32-S2 (np. login do Windowsa/Linuxa)
 
 ## 🛑 Uwaga prawna
